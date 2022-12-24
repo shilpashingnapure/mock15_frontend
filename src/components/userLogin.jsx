@@ -42,7 +42,7 @@ export const Login = ()=>{
             <input type='passsword'/>
             <div>
                 <p>don't Have account ? <Link to='/login'>Sign up</Link></p>
-                <input type='submit' value='login' />
+                <input type='submit' value='login' className='btn'/>
             </div>
         </form>
     </div>

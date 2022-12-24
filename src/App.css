@@ -1,12 +1,27 @@
 body{
   background-color: #f3f4f6;
 }
+
+.navbar{
+  background-color: #fff;
+  padding:20px 12px;
+  text-align: end;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid black;
+  display: flex;
+  gap:20px;
+}
+.navbar a{
+  color:#000;
+}
 .from{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top:8%;
+  background-color: #fff;
+  height: 100vh;
+  /* border: 1px solid black; */
 
 }
 
@@ -14,6 +29,8 @@ body{
   width: 200px;
   height:150px;
   object-fit: contain;
+  margin-top:3%;
+
 }
 
 form{
@@ -40,6 +57,15 @@ form > div{
   align-items: center;
   gap:10px;
   justify-content: flex-end;
+}
+form > div > p{
+  flex:1;
+  text-align: end;
+  margin-top:34px;
+  padding: 0;
+}
+form > div  a{
+  display: inline;
 }
 
 input:focus{

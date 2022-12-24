@@ -36,7 +36,7 @@ export const SignUp = ()=>{
             <input type='passsword'/>
             <div>
                 <p>Have already account ? <Link to='/'>login</Link></p>
-                <input type='submit' value='sign Up' />
+                <input type='submit' value='sign Up' className='btn'/>
             </div>
         </form>
     </div>
